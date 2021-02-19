@@ -12,7 +12,7 @@ Socket.io (https://socket.io/)
 
 ## Plan for Chat App
 
-I designed a simple chat application. The concept of the application is people are chatting in a space.
+I designed a simple chat application. The concept of the application is people are chatting in a space. The users are planet randomly. I wanted to make images change randomly for each users, but it seems not working.
 
 ## Path for MINI APP
 
