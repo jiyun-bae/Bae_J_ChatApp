@@ -1,2 +1,104 @@
-*{border:none;margin:0;padding:0;box-sizing:border-box}body{background-color:#000;color:#fff;font-family:arial,helvetica,sans-serif;font-size:16px}a{display:black;color:white;margin:1rem 0}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black; }
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+a {
+  display: white;
+  color: green;
+  margin: 1rem 0; }
+
+.new-message {
+  padding: 20px;
+  color: white;
+  background-color: burlywood;
+  border-radius: 15px 50px 30px;
+  float: left;
+  clear: both;
+  margin-bottom: 20px; }
+
+#app {
+  text-align: center; }
+  #app textarea {
+    color: black;
+    background-color: white;
+    outline: none;
+    resize: none;
+    height: 200px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+  #app input {
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+  #app .message-wrapper {
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    color: white;
+    text-align: center;
+    position: static; }
+
+.message-wrapper {
+  text-align: center; }
+
+input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  text-indent: 10px; }
+
+.my-message {
+  background-color: white;
+  float: right; }
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  display: block; }
+
+.openpage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .openpage a {
+    margin-left: 10px; }
+  .openpage p {
+    margin-bottom: 10px; }
+  .openpage input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    color: white; }
+  .openpage input[type="submit"] {
+    cursor: pointer; }
+  .openpage div {
+    border: 1px solid white;
+    padding: 50px;
+    border-radius: 25px; }
+
 /*# sourceMappingURL=main.css.map */

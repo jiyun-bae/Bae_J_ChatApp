@@ -1,22 +1,130 @@
 * {
-    border: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: $main-bg-color;
 }
 
-body {
-    background-color: $main-bg-color;
-    color: $main-text-color;
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-    font-family: $default-family;
-    font-size: 16px;
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 a { 
-    display: black; 
-    color: white; 
+    display: white; 
+    color: green; 
     // text-decoration: none;
-
     margin: 1rem 0;
+}
+
+.new-message {
+    padding: 20px;
+    color: white;
+    background-color: burlywood;
+    border-radius: 15px 50px 30px;
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#app {
+    text-align: center;
+
+    textarea {
+        color: black;
+        background-color: white;
+        outline: none;
+        resize: none;
+        height: 200px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    input {
+        width: 200px;
+        color: white;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .message-wrapper {
+        margin-bottom: 20px;
+        margin-bottom: 20px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        color: white;
+        text-align: center;
+        position: static;
+    }
+}
+
+.message-wrapper {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    text-indent: 10px
+}
+
+.my-message {
+    background-color: white;
+    float: right;
+}
+
+body {
+    font-family: $default-family;
+    font-size: 16px;
+    color: white;
+    display: block;
+}
+
+.openpage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    a {
+        margin-left: 10px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    input {
+        margin-bottom: 20px;
+        width: 300px;
+        height: 50px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        color: white;
+    }
+
+    input[type="submit"] {
+        cursor: pointer;
+    }
+
+    div {
+        border: 1px solid white;
+        padding: 50px;
+        border-radius: 25px;
+    }
 }
